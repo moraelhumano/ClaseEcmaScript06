@@ -1,0 +1,38 @@
+{
+    "name": "es6-tutorial",
+    "version": "1.0.0",
+    "description": "Start the tutorial [here](http://ccoenraets.github.io/es6-tutorial).",
+    "main": "index.js",
+    "scripts": {
+      "babel": "babel --presets es2015 ./js/main.js -o ./build/main.bundle.js",
+      "start:dev": "webpack-dev-server",
+      "webpack": "webpack",
+      "build": "webpack --mode development"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/moraelhumano/ClaseEcmaScript6.git"
+    },
+    "author": "SM",
+    "license": "ISC",
+    "bugs": {
+      "url": ""
+    },
+    "homepage": "https://github.com/ccoenraets/es6-tutorial#readme",
+    "devDependencies": {
+      "babel-cli": "^6.26.0",
+      "babel-core": "^6.26.3",
+      "babel-loader": "^7.1.4",
+      "babel-preset-env": "^1.7.0",
+      "css-loader": "^0.28.11",
+      "extract-text-webpack-plugin": "^3.0.2",
+      "html-webpack-plugin": "^3.2.0",
+      "http-server": "^0.11.1",
+      "mini-css-extract-plugin": "^0.4.0",
+      "webpack": "^4.12.2",
+      "webpack-cli": "^3.0.8",
+      "webpack-command": "^0.3.1",
+      "webpack-dev-server": "^3.1.4"
+    }
+  }
+  
